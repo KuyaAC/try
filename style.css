@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f2f2f2;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.logo img {
+  height: 250px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.search input[type="text"] {
+  height: 24px;
+  padding: 5px;
+  border-radius: 4px 0px 0px 4px;
+  border: 2px solid black;
+}
+
+.search button {
+  height: 38px;
+  padding: 0 10px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 0px 4px 4px 0px;
+  cursor: pointer;
+}
+
+.user-icon {
+  font-size: 35px;
+  color: #333;
+  margin-top: 0.5%;
+  margin-left: 15px;
+}
+  
+.banner {
+    background-image: url("img/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    text-align: center;
+    padding: 220px 0;
+    color: black;
+}
+  
+.banner h1 {
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+  
+.banner h2 {
+    font-size: 80px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+  
+.banner .btn {
+    display: inline-block;
+    padding: 12px 34px;
+    background-color: black;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bolder;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.product-section {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: left;
+}
+  
+.product-section h2 { /*Jhoem Emman Printing Shop*/
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0px 0px 20px 15px;
+}
+  
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+  
+.product-card {
+    width: 250px; 
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}  
+  
+.product-card img {
+    width: 250px;
+    height: 180px;
+    margin-bottom: 10px;
+}
+  
+.product-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+  
+.product-card p {
+    font-size: 14px;
+    color: #777;
+}
+
+#show-more-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+  
+#show-more-button {
+    padding: 10px 25px;
+    background-color: black;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#show-less-button {
+    padding: 10px 25px;
+    background-color: black;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.review-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+  
+#more-rev-button {
+    padding: 10px 25px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #333;
+    cursor: pointer;
+}
+
+#less-rev-button {
+    padding: 10px 25px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #333;
+    cursor: pointer;
+}
+
+.review-section {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: left;
+}
+  
+.review-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+  
+.review-summary {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+  
+.stars {
+    color: black;
+    font-size: 25px;
+    margin-right: 10px;
+}
+  
+.review-count {
+    font-size: 18px;
+}
+  
+.review-list {
+    display: flex;
+    flex-direction: column;
+}
+  
+.review-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+  
+.customer-info img {
+    width: 250px;
+    height: 200px;
+    margin-right: 20px;
+}
+  
+.customer-name {
+    font-weight: bold;
+    margin: 5px 50px 20px 0px;
+}
+  
+.review-stars {
+    color: black;
+    font-size: 18px;
+    margin-right: 50px;
+}
+  
+.review-description {
+    font-size: 14px;
+    color: #333;
+    margin-right: 50px;
+}
+
+footer {
+    color: black;
+    padding: 50px;
+    padding-top: 20px;
+}
+  
+.footer-column {
+    width: 33.33%;
+    float: left;
+}
+  
+.footer-column h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+.footer-column ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.footer-column li {
+    margin-bottom: 8px;
+}
+  
+.footer-column a {
+    color: #333;
+    text-decoration: none;
+}
+  
+.footer-column a:hover {
+    text-decoration: underline;
+}
+  
